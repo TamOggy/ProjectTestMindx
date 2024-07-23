@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./test.css" />
+  </head>
+  <body>
+    <div class="images" id="resultImages">
+      <img class="images__random" src="Img/bau.png" alt="bottle" />
+      <img class="images__random" src="Img/cua.png" alt="bottle" />
+      <img class="images__random" src="Img/ca.png" alt="bottle" />
+    </div>
+    <div class="buttonSpin">
+      <button class="buttonSpin_item" id="spinButton">Quay</button>
+    </div>
+    <div class="bets" id="betImages">
+      <div class="bets__item">
+        <img class="bets__img" src="Img/bau.png" alt="bottle" data-index="0" />
+        <span class="bets__img-code">0</span>
+      </div>
+      <div class="bets__item">
+        <img class="bets__img" src="Img/cua.png" alt="crab" data-index="1" />
+        <span class="bets__img-code">0</span>
+      </div>
+      <div class="bets__item">
+        <img class="bets__img" src="Img/tom.png" alt="fish" data-index="2" />
+        <span class="bets__img-code">0</span>
+      </div>
+      <div class="bets__item">
+        <img class="bets__img" src="Img/ca.png" alt="gourd" data-index="3" />
+        <span class="bets__img-code">0</span>
+      </div>
+      <div class="bets__item">
+        <img class="bets__img" src="Img/huou.png" alt="deer" data-index="4" />
+        <span class="bets__img-code">0</span>
+      </div>
+      <div class="bets__item">
+        <img class="bets__img" src="Img/ga.png" alt="rooster" data-index="5" />
+        <span class="bets__img-code">0</span>
+      </div>
+    </div>
+    <div class="buttonReset">
+      <h3 style="margin-left: 150px">
+        Lưu ý : <br />
+        - Số lần đặt ở một 'Hình' sẽ là số lần xuất hiện của các 'Hình' trên
+        'Kết quả' <br />
+        -Tổng số lần đặt là 3
+      </h3>
+      <button class="buttonReset_item" id="resetButton">Đặt lại</button>
+    </div>
+    <script src="./test.js"></script>
+  </body>
+</html>
